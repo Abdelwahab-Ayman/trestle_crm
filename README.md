@@ -1,8 +1,7 @@
-<img src="" alt="trestle"></img>
+<img src="https://github.com/Abdelwahab-Ayman/trestle_crm/blob/main/img/logo%2005%20favicon.png" alt="trestle"></img>
+
 ### Trestle CRM
-
 A cross-platform Customer Relationship Management (CRM) app built with Flutter, delivering a native look and feel across mobile, web, and desktop from a single codebase.
-
 #### Features
 
 - 📇 Contact and lead management
@@ -10,9 +9,7 @@ A cross-platform Customer Relationship Management (CRM) app built with Flutter, 
 - 🔔 Task and follow-up reminders
 - 📈 Deal and revenue overview
 - 🌐 Cross-platform: Android, iOS, Web, Windows, macOS, Linux
-
 #### Tech Stack
-
 - **Framework:** Flutter
 - **Language:** Dart
 - **State Management:** _TBD (e.g. Provider / Riverpod / Bloc)_
