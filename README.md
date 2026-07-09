@@ -1,17 +1,61 @@
-# trestle_crm
+### Trestle CRM
 
-A new Flutter project.
+A cross-platform Customer Relationship Management (CRM) app built with Flutter, delivering a native look and feel across mobile, web, and desktop from a single codebase.
 
-## Getting Started
+#### Features
 
-This project is a starting point for a Flutter application.
+- 📇 Contact and lead management
+- 📊 Sales pipeline tracking
+- 🔔 Task and follow-up reminders
+- 📈 Deal and revenue overview
+- 🌐 Cross-platform: Android, iOS, Web, Windows, macOS, Linux
 
-A few resources to get you started if this is your first Flutter project:
+#### Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Framework:** Flutter
+- **Language:** Dart
+- **State Management:** _TBD (e.g. Provider / Riverpod / Bloc)_
+- **Backend:** _TBD (e.g. Firebase / REST API)_
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Getting Started
+
+#### Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (stable channel)
+- Dart SDK (bundled with Flutter)
+- Android Studio / Xcode (for mobile builds)
+
+#### Installation
+
+```bash
+git clone https://github.com/<your-username>/trestle_crm.git
+cd trestle_crm
+flutter pub get
+```
+#### Running the app
+
+```bash
+flutter run
+```
+To target a specific platform:
+
+```bash
+flutter run -d chrome     # Web
+flutter run -d windows    # Windows
+flutter run -d macos      # macOS
+flutter run -d linux      # Linux
+```
+
+#### Project Structure
+```
+trestle_crm/
+├── lib/
+│   ├── main.dart
+│   ├── models/
+│   ├── screens/
+│   ├── widgets/
+│   └── services/
+├── assets/
+├── test/
+└── pubspec.yaml
+```
